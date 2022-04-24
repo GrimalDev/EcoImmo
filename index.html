@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./style-index.css">
 </head>
 <body>
 
@@ -11,21 +12,33 @@
 
         <nav>
 
-            <span id="firm_icon_main"></span>
+            <img id="firm_icon_main" src="./media/images/icons/logo-ecoimmo.png" alt="Logo EcoImmo">
 
-            <span id="firm_name_main"></span>
+            <span id="searchfield_nav">
+                <img src="./media/images/icons/glass.svg" alt="Icon magnifying glass">
+                <span>Département</span>
+            </span>
 
-            <span id="searchfield_nav"></span>
+            <div id="nav_buttons">
+                <span class="nav_button">acceuil</span>
+                <span class="nav_button">biens</span>
+                <span class="nav_button">client</span>
+                <span id="nav_burger_menu">
+                <img src="./media/images/icons/burger-menu.svg"></img>
+            </span>
+            </div>
 
         </nav>
 
-        <div>
+        <div class="hr_separator"></div>
 
-            <div id="caroussel_container">
+        <img src="./media/images/backgrounds/desktop-firm-header.svg" alt="firm logo and some fancyness" id="firm_header_background">
 
-                <div id="caroussel_title"></div>
+        <div id="carrousel_section_container">
 
-                <div id="caroussel"></div>
+            <div id="carrousel_container">
+
+                <div id="carrousel"></div>
 
             </div>
 
@@ -35,33 +48,42 @@
 
         
     <main>
-        <div id="keep_green_container">
 
-            <div id="tips_card_container">
+        <img src="./media/images/keep-green-styled-text.svg" alt="Keep Green">
 
-                <span id="card_tips_icon"></span>
+        <div id="cards_container">
 
-                <span id="card_tips_title"></span>
+            <div id="keep_green_container">
 
-            </div>
+                <div id="tips_card_container" class="card_container">
 
-            <div id="eco_card_container">
+                    <span class="card_tips_icon"></span>
 
-                <span id="card_tips_icon"></span>
+                    <span class="card_tips_title"></span>
 
-                <span id="card_tips_title"></span>
+                </div>
 
-            </div>
+                <div id="eco_card_container" class="card_container">
 
-            <div id="chart_card_container">
+                    <span class="card_tips_icon"></span>
 
-                <span id="card_tips_icon"></span>
+                    <span class="card_tips_title"></span>
 
-                <span id="card_tips_title"></span>
+                </div>
+
+                <div id="chart_card_container" class="card_container">
+
+                    <span class="card_tips_icon"></span>
+
+                    <span class="card_tips_title"></span>
+
+                </div>
 
             </div>
 
         </div>
+
+        <span>On s'engage !</span>
 
     </main>
 

@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="31" height="25" viewBox="0 0 31 25">
+    <g id="Composant_1_1" transform="translate(0 2.5)">
+        <line id="Ligne_5" x2="31" fill="none" stroke="#fff" stroke-width="5"/>
+        <line id="Ligne_6" x2="31" transform="translate(0 10)" fill="none" stroke="#fff" stroke-width="5"/>
+        <line id="Ligne_7" x2="31" transform="translate(0 20)" fill="none" stroke="#fff" stroke-width="5"/>
+    </g>
+</svg>
