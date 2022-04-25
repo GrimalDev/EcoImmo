@@ -9,13 +9,13 @@
             <feComposite operator="in" in2="SourceGraphic"/>
         </filter>
     </defs>
-    <rect id="Rectangle_27" data-name="Rectangle 27" width="509" height="659" rx="8" transform="translate(10)" fill="#fff"/>
-    <g data-type="innerShadowGroup">
-        <rect id="Rectangle_8-2" data-name="Rectangle 8" width="442" height="584" rx="10" transform="translate(44 32)" fill="#a7e9af"/>
+    <rect id="Rectangle_27" width="509" height="659" rx="8" transform="translate(10)" fill="#fff"/>
+    <g>
+        <rect id="Rectangle_8-2" width="442" height="584" rx="10" transform="translate(44 32)" fill="#a7e9af"/>
         <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Rectangle_8)">
-            <rect id="Rectangle_8-3" data-name="Rectangle 8" width="442" height="584" rx="10" transform="translate(44 32)" fill="#fff"/>
+            <rect id="Rectangle_8-3" width="442" height="584" rx="10" transform="translate(44 32)" fill="#fff"/>
         </g>
     </g>
-    <rect id="Rectangle_17" data-name="Rectangle 17" width="530" height="65" rx="15" transform="translate(0 610)" fill="#fff"/>
+    <rect id="Rectangle_17" width="530" height="65" rx="15" transform="translate(0 610)" fill="#fff"/>
 </svg>
 
