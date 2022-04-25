@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="./style-index.css">
+    <link rel="stylesheet" href="style/style-index.css">
 </head>
 <body>
 
@@ -12,10 +12,10 @@
 
         <nav>
 
-            <img id="firm_icon_main" src="./media/images/icons/logo-ecoimmo.png" alt="Logo EcoImmo">
+            <img id="firm_icon_main" src="style/media/images/icons/logo-ecoimmo.png" alt="Logo EcoImmo">
 
             <span id="searchfield_nav">
-                <img src="./media/images/icons/glass.svg" alt="Icon magnifying glass">
+                <img src="style/media/images/icons/glass.svg" alt="Icon magnifying glass">
                 <span>Département</span>
             </span>
 
@@ -24,7 +24,7 @@
                 <span class="nav_button">biens</span>
                 <span class="nav_button">client</span>
                 <span id="nav_burger_menu">
-                <img src="./media/images/icons/burger-menu.svg"></img>
+                <img src="style/media/images/icons/burger-menu.svg" alt="burger menu">
             </span>
             </div>
 
@@ -32,7 +32,7 @@
 
         <div class="hr_separator"></div>
 
-        <img src="./media/images/backgrounds/desktop-firm-header.svg" alt="firm logo and some fancyness" id="firm_header_background">
+        <img src="style/media/images/backgrounds/desktop-firm-header.svg" alt="firm logo and some fancyness" id="firm_header_background">
 
         <div id="carrousel_section_container">
 
@@ -45,21 +45,21 @@
         </div>
 
     </header>
-
         
     <main>
 
-        <img src="./media/images/keep-green-styled-text.svg" alt="Keep Green">
+        <div id="keep_green_container">
+
+            <img src="style/media/images/keep-green-styled-text.svg" alt="Keep Green">
 
             <div id="keep_green_card_container">
 
                 <div id="tips_card_container" class="card_container">
 
-                    <img src="./media/images/backgrounds/card-background.svg" alt="tip card background">
+                    <img src="style/media/images/backgrounds/card-background.svg" alt="tip card background">
 
                     <div>
-                        <span class="card_tips_icon"></span>
-
+                        <img src="./style/media/images/icons/feuille.png" alt="feuille icon" class="card_tips_icon">
                         <span class="card_tips_title"></span>
                     </div>
 
@@ -67,11 +67,10 @@
 
                 <div id="eco_card_container" class="card_container">
 
-                    <img src="./media/images/backgrounds/card-background.svg" alt="tip card background">
+                    <img src="style/media/images/backgrounds/card-background.svg" alt="tip card background">
 
                     <div>
                         <span class="card_tips_icon"></span>
-
                         <span class="card_tips_title"></span>
                     </div>
 
@@ -79,11 +78,10 @@
 
                 <div id="chart_card_container" class="card_container">
 
-                    <img src="./media/images/backgrounds/card-background.svg" alt="tip card background">
+                    <img src="style/media/images/backgrounds/card-background.svg" alt="tip card background">
 
                     <div>
                         <span class="card_tips_icon"></span>
-
                         <span class="card_tips_title"></span>
                     </div>
 
@@ -91,15 +89,39 @@
 
             </div>
 
-        <span>On s'engage !</span>
+            <span>On s'engage !</span>
+
+        </div>
+
+        <div></div>
 
     </main>
 
     <footer>
 
-        <div id="transition_rectangle"></div>
-
-        <div id="infos_container"></div>
+        <div id="footer_infos_container">
+            <div id="footer_infos_titles">
+                <span>Support</span>
+                <span>Contact</span>
+                <span>Langues</span>
+            </div>
+            <div id="footer_infos_descriptions">
+                <div>
+                    <span>Section légale</span>
+                    <span>EcoImmo ©</span>
+                </div>
+                <div>
+                    <span>Facebook</span>
+                    <span>Twitter</span>
+                    <span>Reddit</span>
+                </div>
+                <div>
+                    <span>Français</span>
+                    <span>Deutsch</span>
+                    <span>English</span>
+                </div>
+            </div>
+        </div>
 
     </footer>
 
