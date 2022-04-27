@@ -85,7 +85,7 @@ nav {
   text-decoration: none;
 }
 
-.nav_button:active {
+.nav_button:active, #nav_burger_menu:active {
   background-color: #75B79E;
 }
 
@@ -153,6 +153,7 @@ nav {
   margin: 2vh;
 }
 #keep_green_container > span {
+  min-width: max-content;
   font: normal normal bold 100px Montserrat;
   color: white;
   margin: 2vh;
