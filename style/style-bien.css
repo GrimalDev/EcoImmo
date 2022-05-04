@@ -1,0 +1,22 @@
+/*SASS FILE OF BIENS.HTML*/
+/*-----------GENERAL STUFF-----------*/
+/*fonts*/
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;600;700;900&display=swap");
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.hr_separator {
+  width: 100%;
+  height: 1.5px;
+  background-color: rgba(167, 233, 175, 0.2901960784);
+}
+
+/*----------HEADER----------------*/
+/*----------MAIN----------------*/
+/*----------FOOTER----------------*/
+
+/*# sourceMappingURL=style-bien.css.map */
