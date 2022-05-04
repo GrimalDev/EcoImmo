@@ -137,6 +137,10 @@ nav {
 }
 
 /*---------------MAIN-------------*/
+main {
+  background-color: rgba(167, 233, 175, 0.2941176471);
+}
+
 #keep_green_container {
   width: 100%;
   height: 100vh;
