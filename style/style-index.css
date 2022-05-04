@@ -108,14 +108,16 @@ nav {
   width: 100vw;
   height: 124px;
   max-width: 1916px;
-  margin-top: 0.5rem;
+  margin: 0.5rem 0 0 50%;
+  transform: translateX(-50%);
 }
 
 /*-------------CARROUSEL-------------*/
 #carrousel_section_container {
   width: 100%;
   height: calc(100vh - (187px + 0.5rem + 1.5px));
-  min-height: 600px;
+  min-height: fit-content;
+  padding: 1rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -123,17 +125,19 @@ nav {
 }
 
 #carrousel_container {
-  width: 80%;
-  height: 70%;
-  box-shadow: inset 3px 3px 6px rgba(0, 0, 0, 0.3529411765);
-  border: 30px solid #75B79E;
-  border-radius: 8px;
+  width: fit-content;
 }
 
 #carrousel {
-  width: 100%;
-  height: 100%;
-  background: transparent url("media/images/appartements/appartement-4.jpg") 0% 0% no-repeat padding-box;
+  width: fit-content;
+}
+#carrousel img {
+  box-sizing: border-box;
+  height: 70vh;
+  min-height: 25rem;
+  border: 30px solid #75B79E;
+  border-radius: 8px;
+  box-shadow: inset 3px 3px 6px rgba(0, 0, 0, 0.3529411765);
 }
 
 /*---------------MAIN-------------*/
